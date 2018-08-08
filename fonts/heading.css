@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'TiemposHeadline-Semibold';
+	src: url('TiemposHeadline-Semibold.eot');
+	src: url('TiemposHeadline-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('TiemposHeadline-Semibold.woff') format('woff'),
+		url('TiemposHeadline-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TiemposHeadline-Medium';
+	src: url('TiemposHeadline-Medium.eot');
+	src: url('TiemposHeadline-Medium.eot?#iefix') format('embedded-opentype'),
+		url('TiemposHeadline-Medium.woff') format('woff'),
+		url('TiemposHeadline-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'TiemposHeadline-Regular';
+	src: url('TiemposHeadline-Regular.eot');
+	src: url('TiemposHeadline-Regular.eot?#iefix') format('embedded-opentype'),
+		url('TiemposHeadline-Regular.woff2') format('woff2'),
+		url('TiemposHeadline-Regular.woff') format('woff'),
+		url('TiemposHeadline-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir Book';
+	src: url('Avenir-Book.eot');
+	src: url('Avenir-Book.eot?#iefix') format('embedded-opentype'),
+		url('Avenir-Book.woff2') format('woff2'),
+		url('Avenir-Book.woff') format('woff'),
+		url('Avenir-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url("fonts/heading.css");
+@import url("fonts/stylesheet-font.css");
+
+
+html, body {
+    font-family: 'GTWalsheimMedium';
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: left;
+    color: #333;
+    background-color: #FBFBFB;
+    text-decoration-skip: ink;
+}
+
+h1 {
+  font-family: 'TiemposHeadline-Medium';
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: rgb(255,62,49);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: ink;
+}
+a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+a:link {
+  color: #333;
+  text-decoration: underline;
+}
+a:visited {
+  color: #333;
+  text-decoration: underline;
+}
+a:active {
+  color: #333;
+  text-decoration: underline;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 90px;
+    z-index: 10;
+}
+
+.logo-mobile {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 50px;
+    z-index: 10;
+}
+
+
+.para-1 {
+  font-family: 'GTWalsheimMedium';
+  color: #0100FF;
+  font-size: 26px;
+  text-align: left;
+  line-height: 35px;
+}
+
+.para-2 {
+  font-family: 'GTWalsheimMedium';
+  font-size: 22px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.para-3 {
+  font-family: 'GTWalsheimMedium';
+  font-size: 18px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.opening-para-mobile {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 30px;
+}
+
+.scroll-text {
+  position: absolute;
+  width: 80vw;
+  top: 73vh;
+  left: 50vw;
+  margin-left: -40vw;
+  font-family: 'Muli';
+  font-weight: 300;
+  font-size: 10px;
+    letter-spacing: 2px;
+  text-align: center;
+  color: white;
+  z-index: 5;
+  line-height: 30px;
+}
+
+
+.footer, .footer-push {
+    height: 57px;
+}
+
+.footer {
+    text-align: center;
+    line-height: 57px;
+    font-size: 12px;
+}
+
+
+
+

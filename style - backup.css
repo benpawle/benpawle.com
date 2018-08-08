@@ -1,0 +1,287 @@
+@charset "UTF-8";
+@import url("fonts/heading.css");
+@import 'https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700';
+@import 'https://fonts.googleapis.com/css?family=PT+Serif:400,700';
+@import 'https://fonts.googleapis.com/css?family=Lekton:400,700,400italic';
+@import 'https://fonts.googleapis.com/css?family=Nunito:400,700';
+
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    background-color: white;
+}
+
+h1 {
+  font-family: 'TiemposHeadline-Medium';
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-style: bold;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: rgb(255,62,49);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(255,62,49);
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(255,62,49,0.8);
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+
+.hero-background {
+  position: relative;
+  min-height: 90vh;
+  background: #9ec6e5; /* Old browsers */
+  background: -moz-linear-gradient(top, #9ec6e5 0%, #e0d2d8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #9ec6e5 0%,#e0d2d8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #9ec6e5 0%,#e0d2d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ec6e5', endColorstr='#e0d2d8',GradientType=0 ); /* IE6 */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.water-orb {
+  position: absolute;
+  top: 45vh;
+  left: 49.8vw;
+  width: 280px;
+  margin-top: -140px;
+  margin-left: -140px;
+}
+
+.water-orb-mobile {
+  position: absolute;
+  top: 45vh;
+  left: 49.8vw;
+  width: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+    height: 70px;
+    z-index: 10;
+}
+
+.logo-mobile {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 50px;
+    z-index: 10;
+}
+
+.menu {
+  position: absolute;
+  padding-right: 2px;
+  top: 40px;
+  right: 5%;
+  width: 100%;
+  z-index: 5;
+}
+
+.menu-element {
+  top: 40px;
+  right: 0px;
+  margin: 0 auto;
+
+  font-family: 'Nunito', sans-serif;
+  font-style: bold;
+  font-size: 15px;
+  text-align: right;
+  color: white;
+  z-index: 5;
+  color: white;
+  word-spacing: 4px;
+}
+
+.menu-element-dark {
+  top: 40px;
+  right: 0px;
+  margin: 0 auto;
+
+  font-family: 'Nunito', sans-serif;
+  font-style: bold;
+  font-size: 15px;
+  text-align: right;
+  color: white;
+  z-index: 5;
+  color: black;
+  word-spacing: 4px;
+}
+
+.menu-element a {
+  color: white;
+  opacity: 0.7;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.menu-element a:hover {
+  color: white;
+  opacity: 1;
+}
+
+.menu-element-dark a {
+  color: black;
+  opacity: 0.7;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.menu-element-dark a:hover {
+  color: black;
+  opacity: 1;
+}
+
+.one-liner {
+  position: absolute;
+  width: 80vw;
+  top: 40vh;
+  left: 50vw;
+  margin-left: -40vw;
+  z-index: 5;
+  font-family: 'TiemposHeadline-Medium';
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 38px;
+  text-align: center;
+  color: white;
+  line-height: 50px;
+}
+
+.one-liner-mobile {
+  position: absolute;
+  width: 80vw;
+  top: 40vh;
+  left: 50vw;
+  margin-left: -40vw;
+  margin-top: -2vh;
+  z-index: 5;
+  font-family: 'TiemposHeadline-Medium';
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  line-height: 30px;
+}
+
+.stuff-one-liner {
+  position: relative;
+  z-index: 5;
+  font-family: 'TiemposHeadline-Medium';
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 38px;
+  text-align: center;
+  color: black;
+  line-height: 50px;
+}
+
+.stuff-one-liner-mobile {
+  position: relative;
+  z-index: 5;
+  font-family: 'TiemposHeadline-Medium';
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  line-height: 40px;
+}
+
+.scroll-text {
+  position: absolute;
+  width: 80vw;
+  top: 75vh;
+  left: 50vw;
+  margin-left: -40vw;
+  font-family: 'Nunito', sans-serif;
+  font-style: bold;
+  font-size: 10px;
+    letter-spacing: 2px;
+  text-align: center;
+  color: white;
+  z-index: 5;
+  line-height: 30px;
+}
+
+.thumb {
+  height: 100%;
+  width: 100%;
+}
+
+.ben-thumb {
+  height: 400px;
+}
+
+.asset-stuff {
+  height: 600px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.caption {
+  font-family: 'Lekton';
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  padding-right: 12%;
+  padding-left: 12%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+.footer, .footer-push {
+    height: 57px;
+}
+
+.footer {
+    text-align: center;
+    line-height: 57px;
+    font-size: 12px;
+}
+
+
+
+
