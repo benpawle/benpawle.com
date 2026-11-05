@@ -9,6 +9,7 @@
   <link rel="icon" href="assets/ben.svg" type="image/svg+xml">
   <link rel="preload" href="assets/inter.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#about">Skip to introduction</a>
@@ -23,7 +24,7 @@
   </header>
   <main>
     <figure class="hero">
-      <img class="flag" src="assets/flag.svg" alt="Cumberland flag" width="33.3333" height="20">
+      <button class="flag" type="button" aria-label="Cumbrian version" aria-pressed="false" title="Toggle Cumbrian version"><img src="assets/flag.svg" alt="" width="33.3333" height="20"></button>
       <div class="studio"><img src="assets/studio.png" alt="Ben making a wooden object at the worktable in his Cumbrian studio." fetchpriority="high"></div>
       <figcaption>Ben lives and works from his studio in Cumbria</figcaption>
     </figure>
@@ -43,5 +44,11 @@
     </section>
   </main>
 </div>
+<template id="cumbrian-copy">
+  <p>Ben's med a naim fer hissel as a designer, founder, an t’lad who can see where things might be gaan.</p>
+  <p>Most o' his wuk's aboot inventin things folk haven't hed afore. New products, new ways o' thinkin an deein things, an t'culture that grows up roond 'em when they catch on.</p>
+  <p>He's at <a class="reference" href="https://nordprojects.co/">Nord Projects</a> noo wi' <a class="reference" href="https://joerick.me/">Joe</a> an <a class="reference" href="http://mikethings.com/">Mike</a>. Between 'em they've taken it intul their heeds to invent what computers might become next. There's neea shortage o' folk wi' opinions on that, mind, but some o' t'world's miast interestin companies have asked these three to hev a gan at it.</p>
+  <p>A fair darrak, by anybody's reckonin.</p>
+</template>
 </body>
 </html>

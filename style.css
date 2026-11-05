@@ -13,3 +13,24 @@
   h1{font-size:32px;line-height:37px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Flag switches between the original and Cumbrian versions. */
+@font-face{font-family:PTSerif;src:url('assets/pt-serif.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:Mansalva;src:url('assets/mansalva.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+.flag{display:block;width:33.3333px;height:20px;padding:0;border:0;background:transparent;z-index:1}
+.flag::before{content:"";position:absolute;inset:-12px -6px}
+.flag img{display:block;border-radius:3px}
+.cumbrian .flag{opacity:1}
+.cumbrian .introduction{margin-top:60px;grid-template-columns:400px 1fr}
+.cumbrian .intro-copy{font-family:PTSerif,Georgia,serif}
+.cumbrian h1{font-size:35px;line-height:47px}
+.cumbrian .body-copy{margin-top:35px}
+.cumbrian .reference{text-decoration:none}
+.cumbrian .hero figcaption{font-family:PTSerif,Georgia,serif;font-size:12px;line-height:16px;letter-spacing:-.3px;opacity:.85}
+.cumbrian .header nav,.cumbrian .contact{font-family:Mansalva,cursive;color:rgba(0,0,0,.85)}
+.cumbrian .header nav{font-size:22px;letter-spacing:-.66px}
+.cumbrian .contact{font-size:20px;letter-spacing:-.6px}
+.cumbrian .contact a{text-decoration:none}
+@media(min-width:801px) and (max-width:1100px){.cumbrian .introduction{grid-template-columns:minmax(0,400px) 1fr}}
+@media(max-width:800px){.cumbrian .introduction{margin-top:38px}.cumbrian h1{font-size:32px;line-height:40px}.cumbrian .body-copy{margin-top:26px}.cumbrian .header nav{font-size:20px}.cumbrian .hero figcaption{font-size:9px;line-height:16px}}
+@media(max-width:360px){.cumbrian .header nav{font-size:18px;gap:16px}}
