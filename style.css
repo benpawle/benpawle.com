@@ -20,6 +20,9 @@
 .flag{display:block;width:33.3333px;height:20px;padding:0;border:0;background:transparent;z-index:1}
 .flag::before{content:"";position:absolute;inset:-12px -6px}
 .flag img{display:block;border-radius:3px}
+.flag canvas{display:none;position:absolute;left:0;top:-3px;width:33.3333px;height:26px;pointer-events:none}
+.flag.is-waving img{visibility:hidden}
+.flag.is-waving canvas{display:block}
 .cumbrian .flag{opacity:1}
 .cumbrian .introduction{margin-top:60px;grid-template-columns:400px 1fr}
 .cumbrian .intro-copy{font-family:PTSerif,Georgia,serif}
